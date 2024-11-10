@@ -1,9 +1,0 @@
-# test cases
-print(check_double_word_format("fast-fast"))       # Expected output: True (correct format, identical words)
-print(check_double_word_format("go-go"))           # Expected output: True (correct format, identical words)
-print(check_double_word_format("yeah-yeah"))       # Expected output: True (correct format, identical words)
-print(check_double_word_format("fast-slow"))       # Expected output: False (incorrect, different words)
-print(check_double_word_format("fast-fast-fast"))  # Expected output: False (incorrect, word repeated more than twice)
-print(check_double_word_format("fastfast"))        # Expected output: False (incorrect, no hyphen)
-print(check_double_word_format("asfdadf"))         # Expected output: False (incorrect, no hyphen, word not repeated)
-print(check_double_word_format("-"))               # Expected output: False (incorrect, empty word)
