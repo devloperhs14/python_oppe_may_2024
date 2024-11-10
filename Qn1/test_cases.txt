@@ -1,0 +1,43 @@
+
+# Test cases fn 1
+print(abs_diff_between_sum_and_sum_of_squares(2, 3))  # Expected output: 8
+print(abs_diff_between_sum_and_sum_of_squares(4, 5))  # Expected output: 16
+print(abs_diff_between_sum_and_sum_of_squares(-1, 1)) # Expected output: 0
+
+
+# Test cases - fn2
+print(swap_except_middle_three("firstabclast1"))  # Expected output: "last1abcfirst"
+print(swap_except_middle_three("abcdefghi"))      # Expected output: "ghidefabc"
+print(swap_except_middle_three("hellotomeworld")) # Expected output: "worldtomehello"
+
+
+
+
+# Test cases - fn 3
+print(interleave_lists([1, 2, 3], ['a', 'b', 'c'], [(1, 1), (2, 2), (3, 3)])) 
+# Expected output: [1, 'a', (1,1), 2, 'b', (2,2), 3, 'c', (3,3)]
+
+print(interleave_lists(['x', 'y', 'z'], [10, 20, 30], ['!', '@', '#'])) 
+# Expected output: ['x', 10, '!', 'y', 20, '@', 'z', 30, '#']
+
+
+# Test cases - fn 4
+print(has_more_than_5_unique_digits(123456))   # Expected output: True
+print(has_more_than_5_unique_digits(111112))   # Expected output: False
+print(has_more_than_5_unique_digits(987654))   # Expected output: True
+
+
+# Test cases - fn 5
+print(final_position((0, 0), (1, 1), 5))    # Expected output: (5, 5)
+print(final_position((2, 3), (-1, 2), 4))   # Expected output: (-2, 11)
+print(final_position((5, 5), (0, 0), 10))   # Expected output: (5, 5)
+
+
+# Test cases - fn 6
+d1 = {'a': 1, 'b': 2, 'c': 3}
+remove_keys_not_in_list(d1, ['a', 'c'])
+print(d1)  # Expected output: {'a': 1, 'c': 3}
+
+d2 = {'x': 10, 'y': 20, 'z': 30}
+remove_keys_not_in_list(d2, ['y'])
+print(d2)  # Expected output: {'y': 20}
